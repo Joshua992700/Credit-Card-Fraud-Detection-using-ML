@@ -27,6 +27,7 @@ LABELS = ["Normal", "Fraud"]
 
 """
 
+#https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data --> Source Dataset
 path = "/content/drive/MyDrive/Credit Card Fraud Detection/creditcard.csv"
 df = pd.read_csv(path)
 df.head()
